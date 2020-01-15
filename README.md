@@ -5,6 +5,13 @@
 # Spanish-English urbit-hoon Documentation and Guides.
 
 
-### Tendremos dos carpetas una destinada a hoon y otra destinada a urbit
+### Tendremos dos carpetas, una destinada a hoon y otra destinada a urbit
 
 ### We have two folders, one for hoon and the other for urbit
+
+## Bibliografia en castellano.
+
+
+## English Bibliograpy
+
+https://github.com/knubie/learning-hoon
