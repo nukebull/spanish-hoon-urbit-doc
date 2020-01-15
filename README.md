@@ -1,17 +1,27 @@
 # spanish-hoon-urbit-doc
 
-# Guías y Documentación sobre Urbit y Hoon en Castellano e Ingles.
+## Guías y Documentación sobre Urbit y Hoon en Castellano e Ingles.
 
-# Spanish-English urbit-hoon Documentation and Guides.
+## Spanish-English urbit-hoon Documentation and Guides.
 
 
-### Tendremos dos carpetas, una destinada a hoon y otra destinada a urbit
+#### Tendremos dos carpetas, una destinada a hoon y otra destinada a urbit
 
-### We have two folders, one for hoon and the other for urbit
+#### We have two folders, one for hoon and the other for urbit
+
 
 ## Bibliografia en castellano.
 
+### urbit
 
-## English Bibliograpy
+### hoon
+
+## English Bibliography
+
+### urbit
+
+### hoon
 
 https://github.com/knubie/learning-hoon
+
+https://urbit.org/community/hoonschool/
