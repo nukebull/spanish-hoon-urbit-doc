@@ -20,6 +20,8 @@
 
 ### urbit
 
+https://medium.com/@urbitlive/an-intro-to-urbit-names-e54b06ec984b
+
 ### hoon
 
 https://github.com/knubie/learning-hoon

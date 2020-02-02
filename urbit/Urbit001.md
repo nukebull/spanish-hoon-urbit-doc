@@ -2,7 +2,7 @@
 
 ## ¿Que es urbit? - What is urbit?
 
-Urbit es un sistema operativo con conexiones de red punto a punto (per to per). Diseñado para ser propiedag de los usuarios, sin estar sujeto a las restricciones del actual modelo cliente servidor.
+Urbit es un sistema operativo con conexiones de red punto a punto (per to per). Diseñado para ser propiedad de los usuarios, sin estar sujeto a las restricciones del actual modelo cliente servidor.
 Esta diseñado para convertirse en una herramienta no intrusiva para organizaciones, grupos de trabajo, grupos familiares, usuarios domesticos...
 
 >Urbit is an operating system with point-to-point network connections (per to per). Designed to be owned by users, without being subject to the restrictions of the current client server model.
@@ -21,7 +21,9 @@ En urbit cada usuario tiene su propio nodo Urbit OS o "urbit". "urbit" es seguro
 Urbit ID es un sitema de de identidad y autentificacion diseñado especificamente para Urbit OS. Cuando inicie sesion en Urbit OS este sera su ID de urbit.
 
 
-Su identificación de Urbit es un nombre corto (como ~ravmel-ropdyl) es un nombre de usuario, dirección de red y billetera criptográfica, todo en uno. Está registrado en una cadena de bloques (blockchaim), el usuario posee la clave y nadie puede quitárle ID. Las ID de Urbit estan basadas en criptografia asimetrica, la cual nos va a permitir autentificar usuarios, cifrar conexiones, firmar,...
+Su identificación de Urbit es un nombre corto (como ~ravmel-ropdyl) es un nombre de usuario, dirección de red y billetera criptográfica, todo en uno. Está registrado en una cadena de bloques (blockchaim), el usuario posee la clave y nadie puede quitárle ID.
+
+Las ID de Urbit estan basadas en criptografia asimetrica, la cual nos va a permitir autentificar usuarios, cifrar conexiones, firmar,...
 
 
 
@@ -35,6 +37,7 @@ Su identificación de Urbit es un nombre corto (como ~ravmel-ropdyl) es un nombr
 
 >Urbit ID is an identity and authentication system designed specifically for Urbit OS. When you log in to Urbit OS this will be your urbit ID.
 
->Your Urbit ID is a short name (such as ~ ravmel-ropdyl) is a username, network address and crypto wallet, all in one. It is registered in a blockchain, The user owns the password and nobody can take away ID. Urbit IDs are based on asymmetric cryptography, which will allow us to authenticate users, encrypt connections, sign, ...
+>Your Urbit ID is a short name (such as ~ ravmel-ropdyl) is a username, network address and crypto wallet, all in one. It is registered in a blockchain, The user owns the password and nobody can take away ID. 
+>Urbit IDs are based on asymmetric cryptography, which will allow us to authenticate users, encrypt connections, sign, ...
 
 
