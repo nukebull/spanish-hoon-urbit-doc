@@ -9,28 +9,35 @@ En esta lección, escribiremos un generador que tome un número entero y verifiq
     (lte n 100)
     =(0 (mod n 2))
 ~~~
+
 En la primera línea,
 ~~~
 :-  %say
 ~~~
+
 Comenzamos a crear un generador de la variante **%say**. El resultado de un generador **%say** es una celda (**cell**) con una cabeza (**head**) de **%say** y una cola que es una puerta  (**gate**). No es importante para comprender los condicionales; esto es solo código de plantilla. Para obtener más información sobre generadores **%say**, consulte la documentación de Generadores .
 ~~~
 |=  [* [n=@ud ~] ~]
 ~~~
+
 El código anterior construye una puerta. El primer argumento de la puerta es una celda proporcionada por Dojo que contiene información del sistema que no vamos a utilizar, por lo que usamos __*__ para indicar "cualquier sustantivo ". La siguiente celda son nuestros argumentos proporcionados al generador al invocarlos en dojo. Aquí solo queremos uno @ud con la cara n.
 ~~~
 :-  %noun
 ~~~
+
 Este código es la tercera línea de la **%say** "codigo repetitivo", y produce un cask con la cabeza de %noun. Podríamos usar cualquiera marca (**mark**) aquí, pero **%noun** es el tipo más genérico, capaz de adaptarse a cualquier dato.
 ~~~
 ^-  ?
 ~~~
+
 Esta línea convierte la salida como a flag, que es un tipo cuyos valores son %.y y %.n representa "sí" y "no". Estos se comportan como valores booleanos.
 
 Veamos el condicional.
+
 ~~~
 ?&  (gte n 1)
 ~~~
+
 **?&** (pronunciado "wut-pam") toma una lista de expresiones Hoon, terminadas por **==**, que evalúan a **a** y **flag** devuelve el "AND" lógico de estos flags. La mayoría de las runas toman un número fijo de hijos, pero los pocos que no (como **?&**) terminan su lista de niños con una runa de terminación. En nuestro contexto, eso significa que si el producto de cada uno de los hijos de **?&** es **%.y**, entonces el producto de toda la expresión **?&** también lo es **%.y**. De lo contrario, el producto del condicional **?&** es **%.n**.
 
 El primer hijo de **?&** es **(gte n 1)**. Es una buena práctica poner la primera prueba booleana de un condicional en la misma línea que el condicional como hemos hecho aquí. Esto utiliza la función de biblioteca estándar **gte** que significa "mayor o igual que". **(gte a b)** devuelve **%.y** si aes mayor o igual que b, y de lo contrario **%.n**.
