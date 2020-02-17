@@ -14,3 +14,11 @@ hijo, niño = child
 cabeza,cabecera = head
 
 cola, final = tail
+
+ala = wings
+
+extremidad, miembro. = limb
+
+alta = tall
+
+plana = flat
