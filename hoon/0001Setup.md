@@ -60,7 +60,7 @@ El tipo más simple de generador es el generador desnudo. Todos los generadores 
 ~~~
 dojo>|mount /=home=
 "crear archivo mygen.hoon en /home/gen"
-dojo>commit %home
+dojo>|commit %home
 dojo>+mygen argument
 ~~~
 
